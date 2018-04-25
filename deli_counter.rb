@@ -21,6 +21,8 @@ def take_a_number(katz_deli)
   puts "Welcome, #{counter}."
  end
 
+counter = 0
+
 
 
 def now_serving(katz_deli)
