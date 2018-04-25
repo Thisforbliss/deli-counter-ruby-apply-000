@@ -14,11 +14,12 @@ end
 
 
 
-def take_a_number(katz_deli, name_of_person)
-  katz_deli.push(name_of_person)  
-  puts "Welcome, #{name_of_person}. You are number #{katz_deli.length} in line."
- 
-end
+def take_a_number(katz_deli)
+ counter = 0
+ counter += 1
+  katz_deli.push(counter) 
+  puts "Welcome, #{counter}."
+ end
 
 
 
