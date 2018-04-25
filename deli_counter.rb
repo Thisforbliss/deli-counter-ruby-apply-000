@@ -13,15 +13,14 @@ def line(katz_deli)
 end
 
 
+counter = 0
 
 def take_a_number(katz_deli)
- counter = 0
  counter += 1
   katz_deli.push(counter) 
   puts "Welcome, #{counter}."
  end
 
-counter = 0
 
 
 
